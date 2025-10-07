@@ -40,7 +40,8 @@ A data frame containing the simulated data.
 }
 \description{
 Obtain samples from a causal model using the rejection sampling approach of
-Evans and Didelez (2024).
+Evans and Didelez (2024).  Kept for compatibility of simulations from
+that paper.
 }
 \details{
 Samples from a given causal model using rejection sampling (or,
