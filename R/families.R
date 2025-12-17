@@ -70,6 +70,7 @@ get_family <- function (val) {
   }
 
   fmly <- family_vals[fm,]$family
+
   if (is.numeric(val) && val > 5) stop("No function defined yet for this family")
 
   return(get(paste0(fmly, "_causl_fam")))
