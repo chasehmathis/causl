@@ -737,7 +737,7 @@ process_prespecified <- function (dat, prespec, cond=TRUE, nlevs=5, cor_thresh=0
     }
     quantiles[prespec[i]] <- quan
   }
-
+  if (nrow(quantiles) == 0 && ncol(quantiles) == 0) return(NULL)
   return(quantiles)
 }
 
