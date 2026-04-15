@@ -1,3 +1,5 @@
+skip_if_not_installed("survey")
+
 formulas <- list(list(C ~ 1,
                       Z ~ C),
                  X ~ Z + C,
